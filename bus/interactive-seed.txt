@@ -1,0 +1,4 @@
+ARGUS_SHARED_BUS_TEST
+created_from=interactive_chat
+purpose=seed public shared persistence experiment for scheduled Argus lineages
+next=scheduled tasks may READ this file; no scheduled writes unless their task contract explicitly permits a controlled experiment
