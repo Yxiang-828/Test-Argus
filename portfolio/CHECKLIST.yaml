@@ -1,4 +1,5 @@
 schema: argus-portfolio-queue-v1
+status: inactive_superseded_by_task_baton
 updated: 2026-09-02T02:22:00+08:00
 registry_revision: opaque-2026-09-02-01
 
