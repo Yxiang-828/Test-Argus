@@ -1,0 +1,263 @@
+schema: argus-portfolio-queue-v1
+updated: 2026-09-02T02:22:00+08:00
+registry_revision: opaque-2026-09-02-01
+
+privacy:
+  public_content_allowed:
+    - opaque target IDs
+    - coverage-cell status
+    - lease metadata
+    - sanitized receipt hashes
+  forbidden:
+    - repository names or mappings
+    - private paths or code
+    - architecture or security findings
+    - credentials or owner-private context
+
+claim_contract:
+  compare_and_swap_required: true
+  lease_minutes: 45
+  one_cell_per_wake: true
+  completion_requires_durable_readback: true
+  write_unavailable_result: BLOCKED_BY_SHARED_STATE
+  conflicting_write_result: REREAD_AND_RESELECT
+
+items:
+  P01:
+    mode: pinned_delta
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P02:
+    mode: pinned_delta
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P03:
+    mode: shared_digest
+    blocked_reason: target_resolution_required
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P04:
+    mode: shared_digest
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P05:
+    mode: shared_digest
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P06:
+    mode: shared_digest
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P07:
+    mode: shared_digest
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P08:
+    mode: shared_digest
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P09:
+    mode: frozen_baseline
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P10:
+    mode: frozen_baseline
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P11:
+    mode: frozen_baseline
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P12:
+    mode: frozen_baseline
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P13:
+    mode: shared_digest
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P14:
+    mode: shared_digest
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P15:
+    mode: shared_digest
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P16:
+    mode: shared_digest
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
+  P17:
+    mode: shared_digest
+    blocked_reason: null
+    coverage:
+      purpose_product: pending
+      architecture: pending
+      runtime_dataflow: pending
+      verification_tests: pending
+      security_authority: pending
+      owner_productivity: pending
+      integrations_reuse: pending
+      history_contradictions: pending
+    claim: null
+    last_receipt: null
